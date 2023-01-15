@@ -114,6 +114,10 @@ class Movie {
 
         return $this;
     }
+
+    public function getTitoloeRegista() {
+        return $this->titolo . " " . $this->regista;
+    }
 }
 
 #$movietest = new Movie('Titolo','Regista','Attore1, attore2','20XX','GenereXY');
